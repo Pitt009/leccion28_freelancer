@@ -2,6 +2,71 @@
  * Estilos de tu proyecto
  */
 
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
  body{
-   
+  margin: 0 auto;
+  line-height: 1.71429;
+  background-color: #fff;
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
  }
+ img {
+   vertical-align: middle;
+ }
+
+ a {
+   color: #fff;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 80%;
+ }
+
+ a:hover {
+  color: #18BC9C;
+  font-size: 70%;
+}
+
+header{
+  background-color: #2C3E50;
+  color: #fff;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  padding: 10px;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+#TituloPagina{
+  font-size: 150%;
+}
+
+#home{
+  background-color: #19C3A8;
+  padding-top: 12%;
+  color: #fff;
+  font-size: 66px;
+  font-weight: bold;
+}
+
+div{
+  background-color: #fff;
+  border: 2px;
+}
