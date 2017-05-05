@@ -20,9 +20,8 @@
   line-height: 1.71429;
   background-color: #fff;
   font-family:  'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
   text-align: center;
+
  }
  img {
    vertical-align: middle;
@@ -38,6 +37,10 @@
  a:hover {
   color: #18BC9C;
   font-size: 70%;
+}
+
+img {
+  vertical-align: middle;
 }
 
 header{
@@ -58,15 +61,45 @@ li{
   font-size: 150%;
 }
 
-#home{
+#fondoVerde{
   background-color: #19C3A8;
-  padding-top: 12%;
+  padding: 10% 0;
   color: #fff;
-  font-size: 66px;
   font-weight: bold;
 }
 
 div{
   background-color: #fff;
   border: 2px;
+}
+
+.raya{
+  border: 2px solid white;
+  width: 10%;
+  display: inline-block;
+}
+ h1{
+   font-size: 4em;
+ }
+
+#portfolio{
+  background-color: #fff;
+  padding: 5% 8%;
+
+
+}
+
+.raya_negra{
+  border: 2px solid black;
+  width: 10%;
+  display: inline-block;
+}
+
+h2{
+
+  font-size: 2em;
+}
+
+#h2_seccion_about{
+  margin-top: -8%;
 }
